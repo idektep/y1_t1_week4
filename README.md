@@ -23,7 +23,6 @@ void loop() {
 
   Serial.print("Temperature: ");
   Serial.print(___, 1); //ตัวแปร เก็บค่าอุณหภูมิ
-  
   Serial.print(" C, Humidity: ");
   Serial.print(___, 1); //ตัวแปร เก็บค่าความชื้น
   Serial.println(" %");
